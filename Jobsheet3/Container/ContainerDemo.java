@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ContainerDemo {
     public static void main(String[] args) {
+        Testdoang eek = new Testdoang();
         Container containerAlfa = new Container("Miau", "PT.Doksli", 50000);
         Scanner sc = new Scanner(System.in);
 
@@ -29,5 +30,8 @@ public class ContainerDemo {
 
        containerAlfa.turunkanMuatan(muatan);
        System.out.println("Berat muatan saat ini : " + containerAlfa.checkMuatan() + " Kg");
+
+       eek.apa();
+       sc.close();
     }
 }
